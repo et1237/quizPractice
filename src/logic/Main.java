@@ -12,16 +12,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
 
 public class Main extends Application{
 		
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		launch(args);
 	}
 	
-	public void start(Stage stage) throws Exception{
+	public void start(Stage stage) {
         stage.setTitle("Calculator");
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
