@@ -1,0 +1,33 @@
+  sonar.projectKey=et1237_quizPractice
+sonar.projectName=quizPractice
+
+# =====================================================
+#   Meta-data for the project
+# =====================================================
+
+sonar.links.homepage=https://github.com/et1237/quizPractice
+sonar.links.ci=https://travis-ci.org/et1237/quizPractice
+sonar.links.scm=https://github.com/et1237/quizPractice
+sonar.links.issue=https://github.com/et1237/quizPractice/issues
+
+
+# =====================================================
+#   Properties that will be shared amongst all modules
+# =====================================================
+
+sonar.host.url=https://sonarcloud.io
+sonar.organization=et1237
+sonar.login=b7bbb67775a8c5088fae88f200a07d230e32b935
+sonar.sources=.
+sonar.language=java
+
+
+
+# =====================================================
+#   Java config
+# =====================================================
+sonar.java.source=1.8
+sonar.java.binaries=.
+
+# Debug
+sonar.verbose=true
