@@ -54,4 +54,9 @@
             <classpath refid="QuizPractice.classpath"/>
         </java>
     </target>
+    <target name="Calculator (1)">
+        <java classname="logic.Calculator" failonerror="true" fork="yes">
+            <classpath refid="QuizPractice.classpath"/>
+        </java>
+    </target>
 </project>
